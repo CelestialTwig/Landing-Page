@@ -158,3 +158,76 @@ ul {
 .footer {
     display: flex;
 }
+
+
+.bottom-content {
+    display: flex;
+    justify-content: center;
+}
+
+.blue-box {
+    display: flex;
+    background: #3882f6;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-radius: 20px;
+    margin: 100px;
+}
+
+.call-to-action {
+    display: flex;
+    font-family: "Roboto", serif;
+    margin: 0;
+    padding: 0;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    flex-direction: column;
+}
+
+#bottom-text {
+    display: flex;
+    font-family: "Roboto", serif;
+    margin: 0px;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.sign-up-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sign-up-button > button {
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    border-style: solid;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #f9faf8;
+}
+
+
+.call-to-action > h3 {
+    margin: 0;
+}
+
+#bottom-text > p {
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", serif;
+    background: #1f2937;
+    color: #f9faf8;
+    padding: 10px;
+}
